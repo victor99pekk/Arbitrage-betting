@@ -1,0 +1,84 @@
+
+github:
+https://github.com/the-odds-api/samples-python
+
+doc:
+https://the-odds-api.com/liveapi/guides/v4/#example-response
+
+{
+    "id": "4f526da5dde3447e61e8f9defbdfcc00",
+    "sport_key": "tennis_atp_canadian_open",
+    "sport_title": "ATP Canadian Open",
+    "commence_time": "2024-08-12T23:30:00Z",
+    "home_team": "Andrey Rublev",
+    "away_team": "Alexei Popyrin",
+    "bookmakers": [
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2024-08-12T19:32:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-12T19:32:03Z",
+            "outcomes": [
+              {
+                "name": "Alexei Popyrin",
+                "price": 3.28
+              },
+              {
+                "name": "Andrey Rublev",
+                "price": 1.38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2024-08-12T19:32:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-12T19:32:04Z",
+            "outcomes": [
+              {
+                "name": "Alexei Popyrin",
+                "price": 3.3
+              },
+              {
+                "name": "Andrey Rublev",
+                "price": 1.34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "everygame",
+        "title": "Everygame",
+        "last_update": "2024-08-12T19:32:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-12T19:32:04Z",
+            "outcomes": [
+              {
+                "name": "Alexei Popyrin",
+                "price": 3.1
+              },
+              {
+                "name": "Andrey Rublev",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+
+      ....
+
+    ]
+
+}
